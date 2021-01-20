@@ -11,7 +11,6 @@ body {
 }
 
 
-
 h3 {
     font-size: 24px;
 }
@@ -37,11 +36,11 @@ h3 {
 }
 
 .hamburger-button {
-    background-color:#0324c6;
+    background-color:#032646;
     color: #fff;
     display: block;
     max-width: 50px;
-    padding: 15px 0;
+    padding: 15px 0px;
     border-radius: 8px;
     text-align: center;
     font-size: 18px;
@@ -55,6 +54,7 @@ h3 {
 .copy-header {
     font-weight: 400;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .main-navbar {
@@ -156,15 +156,16 @@ footer i {
     }
     .copy-header{
         max-width: none;
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 400;
+        margin: 0px;
         
     }
     .main-navbar {
         margin-top: 30px;
     }
     .main-navbar li {
-        margin: 10px;
+        margin: 0 10px;
     }
     .main-navbar a {
         font-size: 19px;
