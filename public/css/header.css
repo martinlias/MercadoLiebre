@@ -20,8 +20,8 @@ div.logo {
   #main-header #top-header p {
     width: 100%;
     text-align: center;
-    margin-top: 10px;
     margin-bottom: 12px;
+    font-size: 16px;
 }
 
 .burger-menu {

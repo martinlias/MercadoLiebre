@@ -53,6 +53,7 @@ h3, .product .description {
   position: absolute;
   right: 20px;
   top: -15px;
+  transition: transform 1s;
 }
 
 .product .main-article {
@@ -67,9 +68,17 @@ h3, .product .description {
     align-items: flex-end;
 }
 
-.product .product-background {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+.search-input, .search-btn {
+    display: none;
 }
+
+button { 
+    font-size: 25px;
+    width: 30%;
+    padding: 5px;
+    margin-top: 15px;
+}
+
 
 @media (min-width: 768px) {
     #top-header {
@@ -77,18 +86,10 @@ h3, .product .description {
         justify-content: space-between;    
     }
 
-    .product .description {
-        display: initial;
-    }
-
     .product {
         width: 50%;
     }
 
-    .product .product-background {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-   
     .burger-menu {
         display: none;
     }
@@ -110,8 +111,77 @@ h3, .product .description {
     #main-header #top-header p {
         text-align: right;
         font-size: 16px;
-        margin-right: 40px;
+        position: absolute;
+        top: 30px;
+        right: 10px;
 }
+.search-input, .search-btn {
+    display: initial;
+
+}
+.search-box, .search-btn {
+    position: absolute;
+    right: 85px;
+}
+.search-box, .search-input {
+    width: 100%;
+    position: relative;
+    right: 100px;
+    top: 15px
+}
+main.register form{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main.register form label.perfil{
+    font-weight: bold;
+    font-size: 18px;
+}
+main.register form label.mlcategorias{
+    margin: 10px;
+    margin-top: 10px;
+}
+main.register form label.TIPO{
+    margin: 10px;
+}  
+main.register form input.boton{
+    display: flex;
+}
+main.register form button{
+    width: 25%;
+    height: 10%;
+    background-color: #1259C3;
+    color: snow;
+    margin: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+main.login form{
+    text-align: center;
+    width: 100%;
+    height: 40vw;
+    margin-top: 20px;
+}
+main.login form input{
+    width: 50%;
+    margin: 10px;
+    height: 16%;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+main.login form button{
+    width: 50%;
+    height: 22%;
+    background-color: #1259C3;
+    color: snow;
+    margin: 20px;
+    font-size: 18px;
+}
+
 }
 
 
@@ -133,5 +203,85 @@ h3, .product .description {
     div.logo {
         width: 400px;
         padding: 10px;
-    }    
+    }
+    .search-box .search-btn {
+        position: absolute;
+        right: 265px;
+        top: 5px;
+        width: 10%;
+        
+      }
+      .search-box, .search-input {
+        width: 440px;
+        position: relative;
+        right: 265px;
+        top: 20px;
+    
+    }
+    #main-header #top-header p {
+        width: 100%;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+    .description {
+        opacity: 0;
+        transition: opacity 500ms;
+    }
+    .product .truck-icon:hover {
+        transform: rotate(360deg);
+    
+    }
+
+    .product .product-background:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .product .discount {
+        bottom: 2px;
+        flex-grow: 1;
+        position: relative;
+        left: -2px;
+    }
+
+    .product:hover .description {
+        opacity: 1;
+    }
+
+    .footer-desktop {
+        display: flex;
+    }
+
+    .footer-icon:hover {
+        color: black;
+    }   
+
+    footer p {
+        margin: 5px 10px;
+    }
+    main.login form{
+        text-align: center;
+        width: 100%;
+        height: 40vw;
+        margin-top: 50px;
+    }
+    main.login form input{
+        width: 50%;
+        margin: 30px;
+        height: 10%;
+        margin-top: 30px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 24px;
+        font-family: sans-serif;
+    }
+    main.login form button{
+       width: 50%;
+       height: 10%;
+       background-color: #1259C3;
+       color: snow;
+       margin: 30px;
+       font-size: 24px;
+    }
+    
 }

@@ -1,0 +1,111 @@
+main.register form label.perfil{
+font-weight: bold;
+display: flex;
+font-size: 16px;
+justify-content: center;
+}
+main.register form{
+    text-align: center;
+}
+main.register form input[type="text"],
+main.register form input[type="date"], main.register form input[type="email"],
+main.register form input[type="password"]{
+    width: 75vw;
+    height: 5vw;
+    border-radius: 5px;
+    border: white;
+    text-align: center;
+    margin: 15px;
+}
+main.register form label.mlcategorias{
+    margin: 25px;
+}
+main.register form label.perfil{
+    margin: 10px;
+}
+main.register form button{
+    width: 25%;
+    height: 10%;
+    background-color: #1259C3;
+    color: snow;
+    margin: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.search-box .search-input,
+  .search-box .search-btn,
+  .input-box .input {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: #666;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+
+main.login form {
+text-align: center;
+width: 100%;
+height: 40vw;
+}
+
+main.login form input{
+width: 50%;
+margin: 15px;
+height: 16%;
+margin-top: 15px;
+border-radius: 5px;
+text-align: center;
+font-size: 12px;
+font-family: sans-serif;
+}
+main.login form button{
+   width: 50%;
+   height: 22%;
+   background-color: #1259C3;
+   color: snow;
+   margin: 15px;
+   font-size: 14px;
+   border-radius: 5px;
+}
+
+  
+
+@media (min-width: 1200px) {
+    main.register form label.perfil{
+        font-weight: bold;
+        font-size: 26px;
+    }
+    main.register form label.mlcategorias{
+        margin: 10px;
+        margin-top: 10px;
+    }
+    main.register form label.TIPO{
+        margin: 10px;
+    }  
+    main.register form input.boton{
+        display: flex;
+    }
+    main.register form button{
+        width: 25%;
+        height: 3.5vw;
+        background-color: #1259C3;
+        color: snow;
+        margin: 30px;
+        font-size: 24px;
+        border-radius: 5px;
+    }
+    main.register form{
+        font-size: 24px;
+    }
+    main.register form input[type="text"],
+    main.register form input[type="date"], main.register form input[type="email"],
+    main.register form input[type="password"]{
+        font-size:24px;
+    }
+
+    
+}
+
+

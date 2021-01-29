@@ -9,12 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    
 
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/forms.css">
+     <link rel="stylesheet" href="/css/register.css">
     <link rel="stylesheet" href="/css/product.css">
-    <link rel="stylesheet" href="/css/register.css">
     
 </head>
 <body>
@@ -32,7 +32,7 @@
             <p>
                 <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito
             </p>
-        </div>  
+        </div> 
         
     <nav class="main-navbar">
         <ul class="nav-list">
@@ -54,42 +54,21 @@
     </div> 
 
     </header>
+    <main class="login">
+        <form action="/" method="GET">
+            <h1>Ingresá con tu cuenta</h1>
+            <div class="error-box">
+                  <ul>
+                      <li class="error-item">-Tenés que completar el nombre de usuario</li>
+                      <li class="error-item">-La contraseña no coincide con el usuario</li>
+                  </ul>
+            </div>
 
-    <main class="register">
-        <form action="/" method="POST">
-            <input type="text" placeholder="Nombre y Apellido" name="Nombre completo" required>
                 <input type="text" placeholder="Usuario" name="Usuario" required>
-
-                <input type="email" placeholder="Email" name="Email" required>
-                
-                <label class="perfil" for="Fechadenacimiento">Fecha de nacimiento</label>
-                <input type="date" name="Fechadenacimiento" required>
-                <input type="text" placeholder="Domicilio" name="Domicilio">
-
-                <label class="perfil" for="Perfildeusuario">Perfil de usuario</label>
-                <label  class="TIPO" for="Vendedor">Vendedor</label>
-                <input class="TIPO" type="radio" name="Perfildeusuario" value="Vendedor">
-                <label class="TIPO" for="Comprador">Comprador</label>
-                <input class="TIPO" type="radio" name="Perfildeusuario" value="Comprador">
-
-                <label class="perfil" for="Categoriasdeinteres"> Categorias de interes</label>
-                <label class="mlcategorias" for="Categoriasdeinteres">Moda</label>
-                <input type="checkbox" name="Categoriasdeinteres" value="Moda">
-                <label class="mlcategorias" for="Categoriasdeinteres">Electro</label>
-                <input type="checkbox" name="Categoriasdeinteres"  value="Electro">
-                <label class="mlcategorias" for="Categoriasdeinteres">Hogar</label>
-                <input type="checkbox" name="Categoriasdeinteres"  value="Hogar">
-                <label class="mlcategorias" for="Categoriasdeinteres">Jugueteria</label>
-                <input type="checkbox" name="Categoriasdeinteres"  value="Jugueteria">
-                <label class="mlcategorias" for="Categoriasdeinteres">Vida sana</label>
-                <input type="checkbox" name="Categoriasdeinteres"  value="Vida sana">
                 <input type="password" placeholder="Contraseña" name="Contraseña" required pattern=".{8}">
-                <input type="password" placeholder="Confirmar contraseña" name="Confirmar contraseña" required pattern=".{8}">
-
-                <button type="reset"> Borrar Datos</button>
-                <button type="submit">Enviar</button>
+                <button type="submit">Ingresar</button>
+        
         </form>
-
     </main>
 
     <footer>
@@ -108,7 +87,8 @@
             <i class="fas fa-user-shield footer-icon"></i>
             <h3 class= "footer-tittle">Seguridad, de principio a fin</h3>
             <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
-                porque estás siempre protegid@.</p>
+                porque estás siempre protegid@.
+            </p>
         </div>
         </div>
         <br>
@@ -118,7 +98,4 @@
             <h3 class="copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</h3>
         </div>
     </footer>
-    
 
-</body>
-</html>
