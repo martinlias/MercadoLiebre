@@ -58,13 +58,15 @@ main {
 }
 
 
+
 footer {
     text-align: center;
-    padding: 60px;
+    padding: 10px;
 }
 
 .copyright {
     text-align: left;
+    font-size: 18px;
 }
 
 .footer-tittle {

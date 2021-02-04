@@ -80,7 +80,10 @@ button {
 }
 
 
+
+
 @media (min-width: 768px) {
+    
     #top-header {
         display: flex;
         justify-content: space-between;    
@@ -172,6 +175,7 @@ main.login form input{
     text-align: center;
     font-size: 14px;
     font-family: sans-serif;
+    border: white;
 }
 main.login form button{
     width: 50%;
@@ -204,6 +208,7 @@ main.login form button{
         width: 400px;
         padding: 10px;
     }
+
     .search-box .search-btn {
         position: absolute;
         right: 265px;
@@ -222,7 +227,7 @@ main.login form button{
         width: 100%;
         position: absolute;
         top: 30px;
-        right: 20px;
+        right: 62px
     }
     .description {
         opacity: 0;
@@ -245,7 +250,9 @@ main.login form button{
     }
 
     .product:hover .description {
+        display: initial;
         opacity: 1;
+
     }
 
     .footer-desktop {
@@ -253,11 +260,12 @@ main.login form button{
     }
 
     .footer-icon:hover {
-        color: black;
+        color: grey;
     }   
 
     footer p {
         margin: 5px 10px;
+        text-align: center;
     }
     main.login form{
         text-align: center;
@@ -284,4 +292,11 @@ main.login form button{
        font-size: 24px;
     }
     
+    main.login form button:hover {
+        background-color: #0022AA;
+    }
+
+    main.register form button:hover {
+        background-color: #0022AA;
+    }
 }

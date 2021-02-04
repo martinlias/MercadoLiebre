@@ -21,7 +21,7 @@ main.register form label.mlcategorias{
     margin: 25px;
 }
 main.register form label.perfil{
-    margin: 10px;
+    margin: 22px;
 }
 main.register form button{
     width: 25%;
@@ -82,7 +82,7 @@ main.login form button{
         margin-top: 10px;
     }
     main.register form label.TIPO{
-        margin: 10px;
+        margin: 22px;
     }  
     main.register form input.boton{
         display: flex;
