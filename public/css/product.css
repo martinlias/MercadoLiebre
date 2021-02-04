@@ -68,6 +68,9 @@ h3, .product .description {
     align-items: flex-end;
 }
 
+.search-input, .search-btn {
+    display: none;
+}
 
 button { 
     font-size: 25px;
@@ -127,10 +130,6 @@ button {
     position: absolute;
     right: 85px;
 }
-
-
-
-
 .search-box, .search-input {
     width: 100%;
     position: relative;
@@ -221,7 +220,6 @@ main.login form button{
         width: 10%;
         
       }
-      
       .search-box, .search-input {
         width: 440px;
         position: relative;
@@ -261,14 +259,8 @@ main.login form button{
 
     }
 
-    footer {
-        margin-top: 60px;
-    }
-
     .footer-desktop {
         display: flex;
-        justify-content: center;
-         align-items: center;
     }
 
     .footer-icon:hover {
