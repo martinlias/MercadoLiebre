@@ -3,6 +3,7 @@
   width: 100%;
 }
 
+
 .search-box .search-input,
 .search-box .search-btn,
 .input-box .input {
@@ -15,9 +16,12 @@
   border-radius: 5px;
 }
 .search-box .search-btn {
-  position: absolute;
-  right: 0px;
+  right: -15px;
+position: absolute;
+bottom: 0px;
+width: 15%;
 }
+
 .search-box .search-input {
   width: 100%;
 }
